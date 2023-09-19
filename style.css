@@ -160,3 +160,42 @@ q {
   font-weight: bold;
   margin-right: 50px;
 }
+.call-to-action {
+  width: 100%;
+  padding: 100px;
+}
+.action-container {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+  justify-content: space-around;
+  border-radius: 10px;
+  background-color: #3882f6;
+  color: white;
+  padding: 40px;
+}
+h4 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.action-left-side > p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 14px;
+}
+.action-container > button {
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #3882f6;
+  color: white;
+  cursor: pointer;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.action-container > button:hover {
+  transform: scale(1.1);
+}
