@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  background-color: #1f2937;
+  /* background-color: #1f2937; */
   box-sizing: border-box;
 }
 .header {
@@ -46,7 +46,7 @@ ul > li:hover {
 .hero {
   width: 100%;
   padding: 20px;
-  /* border: 1px solid black; */
+  background-color: #1f2937;
   display: flex;
   gap: 30px;
   justify-content: space-around;
@@ -88,3 +88,48 @@ ul > li:hover {
 .right-side > img {
   width: 100%;
 }
+.services {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+
+  border: 1px solid pink;
+}
+.style {
+  padding: 10px;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #1f2937;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.accesories {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+}
+.accesories > .img-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 14px;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+.accesories > .img-container > img {
+  border-radius: 15px;
+  border: 3px solid #3882f6;
+  width: 200px;
+}
+/* .accesories > .img-container {
+  width: 100%;
+} */
