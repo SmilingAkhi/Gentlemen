@@ -8,7 +8,8 @@
   /* border: 1px solid green; */
   background-color: #1f2937;
   display: flex;
-  justify-content: space-around;
+  padding: 10px;
+  justify-content: space-between;
   align-items: center;
   margin: 10px;
 }
@@ -27,25 +28,25 @@ ul {
 ul > li {
   padding: 5px;
   text-align: center;
-  border-bottom: 1px solid white;
+  border: 1px solid white;
+  border-radius: 9px;
 }
 
 ul > li > a {
   text-decoration: none;
   color: white;
   font-size: 15px;
-
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-ul > li > a:hover {
-  color: rgb(94, 88, 87);
-  transform: scale(2);
+ul > li:hover {
+  transform: scale(1.5);
 }
+
 .hero {
   width: 100%;
   padding: 20px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   gap: 30px;
   justify-content: space-around;
